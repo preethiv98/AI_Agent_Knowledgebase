@@ -1,0 +1,15 @@
+Acme Cloud Storage — Product Overview
+
+Acme Cloud Storage is a secure file storage and sharing platform for teams. It offers 2TB of storage per user on the Standard plan and unlimited storage on the Enterprise plan. Files are encrypted both at rest (AES-256) and in transit (TLS 1.3).
+
+Pricing starts at $8 per user per month for the Standard plan, billed annually. The Enterprise plan is $22 per user per month and includes single sign-on (SSO), advanced audit logs, and a dedicated account manager. A 14-day free trial is available for both plans, no credit card required.
+
+Support is available via live chat and email 24/7 for Enterprise customers. Standard plan customers get email support with a response time of within one business day, Monday through Friday, 9am–6pm Eastern.
+
+File version history is retained for 30 days on the Standard plan and 180 days on the Enterprise plan. Deleted files go to a recycle bin and are permanently removed after 30 days unless restored.
+
+Acme Cloud Storage integrates with Slack, Microsoft Teams, Google Workspace, and Zapier. An API is available for custom integrations, documented at developers.acmecloud.example.
+
+Data is stored in AWS data centers in the US, EU, and Asia-Pacific regions. Customers on the Enterprise plan can choose their preferred data residency region at account setup; this cannot be changed after the account is created without opening a support ticket.
+
+Two-factor authentication (2FA) is available for all accounts and is mandatory for Enterprise accounts. Supported 2FA methods include authenticator apps (TOTP) and SMS codes.

@@ -1,0 +1,23 @@
+System Architecture
+
+The FAQ Generator follows a pipeline architecture with the following stages:
+
+Discovery: The discoverer module scans the input folder recursively for supported file
+types. It respects a maximum depth of 10 levels and caps at 10,000 files.
+
+Reading: The reader module extracts text from each discovered document. It dispatches
+to format-specific handlers based on file extension.
+
+Chunking: The chunker splits extracted text into overlapping chunks of up to 3,000 words.
+It attempts to split at sentence boundaries to preserve context.
+
+Generation: The generator sends each chunk to the Claude API with a structured prompt
+requesting 3-10 QA pairs per chunk.
+
+Merging: The merger combines all QA pairs in deterministic order sorted by document
+path and chunk index.
+
+Deduplication: The deduplicator removes exact and near-duplicate questions using
+TF-IDF cosine similarity with a threshold of 0.85.
+
+Output: The writer formats the final QA pairs as Markdown and saves to output/faq.md.

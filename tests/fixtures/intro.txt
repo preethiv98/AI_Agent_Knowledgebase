@@ -1,0 +1,13 @@
+Introduction to the Project
+
+This document provides an introduction to the FAQ Generator project. The FAQ Generator
+is a command-line tool that processes a folder of documents and generates a comprehensive
+FAQ in Markdown format.
+
+The tool supports PDF, DOCX, and TXT files. It uses the Anthropic Claude API to analyze
+document content and extract relevant question-answer pairs. The generated FAQ is saved
+to output/faq.md.
+
+Key features include automatic document discovery, intelligent text chunking with
+sentence-boundary awareness, semantic deduplication of questions, and progress reporting
+during processing.

@@ -1,0 +1,16 @@
+Usage Guide
+
+To use the FAQ Generator, follow these steps:
+
+1. Install the dependencies using pip install -e . in the project root directory.
+2. Create a .env file in your working directory with ANTHROPIC_API_KEY=your-key-here.
+3. Run the tool: faq-generator /path/to/documents
+
+The tool will scan the specified folder for supported documents, estimate the number of
+API calls required, and then process each document chunk by chunk.
+
+Command-line options:
+  --yes, -y           Skip the confirmation prompt for large batches.
+  --confirm-threshold N  Set the chunk count above which confirmation is required (default: 50).
+
+The output will be written to output/faq.md in the current working directory.

@@ -1,0 +1,420 @@
+{
+  "pbtResults": {
+    "1.3 Write property test for whitespace-only input rejection": {
+      "status": "passed",
+      "lastRunTimestamp": 1785366448655
+    },
+    "2.3 Write property test for FAQ content preservation in system prompt": {
+      "status": "passed",
+      "lastRunTimestamp": 1785444112374
+    },
+    "4.2 Write property test for conversation history alternation invariant": {
+      "status": "passed",
+      "lastRunTimestamp": 1785444136629
+    },
+    "4.3 Write property test for history trimming preserves recency": {
+      "status": "passed",
+      "lastRunTimestamp": 1785444176330
+    },
+    "2.4 Write property test for exit command classification": {
+      "status": "passed",
+      "lastRunTimestamp": 1785448419201
+    },
+    "3.3 Write property test for request assembly completeness": {
+      "status": "passed",
+      "lastRunTimestamp": 1785448431443
+    },
+    "6.3 Write property test for system prompt immutability across turns": {
+      "status": "passed",
+      "lastRunTimestamp": 1785449712784
+    },
+    "6.2 Write property test for empty input not triggering API call": {
+      "status": "passed",
+      "lastRunTimestamp": 1785449721144
+    }
+  },
+  "executionHistory": {
+    "1.1 Create `faq_chatbot.py` with FAQ file loading and validation": [
+      {
+        "executionId": "aabc4c81-c21f-4d45-8865-ecc3896abf43",
+        "chatSessionId": "sess_ef6bc3e9-4e87-4ae4-9bd1-169cd26f4501",
+        "timestamp": 1785366132277
+      },
+      {
+        "executionId": "aabc4c81-c21f-4d45-8865-ecc3896abf43",
+        "chatSessionId": "sess_ef6bc3e9-4e87-4ae4-9bd1-169cd26f4501",
+        "timestamp": 1785366139619
+      },
+      {
+        "executionId": "aabc4c81-c21f-4d45-8865-ecc3896abf43",
+        "chatSessionId": "sess_ef6bc3e9-4e87-4ae4-9bd1-169cd26f4501",
+        "timestamp": 1785366329937
+      }
+    ],
+    "1.2 Implement API key loading and validation": [
+      {
+        "executionId": "aabc4c81-c21f-4d45-8865-ecc3896abf43",
+        "chatSessionId": "sess_ef6bc3e9-4e87-4ae4-9bd1-169cd26f4501",
+        "timestamp": 1785366132319
+      },
+      {
+        "executionId": "aabc4c81-c21f-4d45-8865-ecc3896abf43",
+        "chatSessionId": "sess_ef6bc3e9-4e87-4ae4-9bd1-169cd26f4501",
+        "timestamp": 1785366140312
+      },
+      {
+        "executionId": "aabc4c81-c21f-4d45-8865-ecc3896abf43",
+        "chatSessionId": "sess_ef6bc3e9-4e87-4ae4-9bd1-169cd26f4501",
+        "timestamp": 1785366330753
+      }
+    ],
+    "1.3 Write property test for whitespace-only input rejection": [
+      {
+        "executionId": "aabc4c81-c21f-4d45-8865-ecc3896abf43",
+        "chatSessionId": "sess_ef6bc3e9-4e87-4ae4-9bd1-169cd26f4501",
+        "timestamp": 1785366132350
+      },
+      {
+        "executionId": "aabc4c81-c21f-4d45-8865-ecc3896abf43",
+        "chatSessionId": "sess_ef6bc3e9-4e87-4ae4-9bd1-169cd26f4501",
+        "timestamp": 1785366340113
+      },
+      {
+        "executionId": "aabc4c81-c21f-4d45-8865-ecc3896abf43",
+        "chatSessionId": "sess_ef6bc3e9-4e87-4ae4-9bd1-169cd26f4501",
+        "timestamp": 1785444047265
+      }
+    ],
+    "2.1 Implement `build_system_prompt(faq_content)` function": [
+      {
+        "executionId": "aabc4c81-c21f-4d45-8865-ecc3896abf43",
+        "chatSessionId": "sess_ef6bc3e9-4e87-4ae4-9bd1-169cd26f4501",
+        "timestamp": 1785366132382
+      },
+      {
+        "executionId": "aabc4c81-c21f-4d45-8865-ecc3896abf43",
+        "chatSessionId": "sess_ef6bc3e9-4e87-4ae4-9bd1-169cd26f4501",
+        "timestamp": 1785366340943
+      },
+      {
+        "executionId": "aabc4c81-c21f-4d45-8865-ecc3896abf43",
+        "chatSessionId": "sess_ef6bc3e9-4e87-4ae4-9bd1-169cd26f4501",
+        "timestamp": 1785444045572
+      }
+    ],
+    "2.2 Implement `is_exit_command(user_input)` function": [
+      {
+        "executionId": "aabc4c81-c21f-4d45-8865-ecc3896abf43",
+        "chatSessionId": "sess_ef6bc3e9-4e87-4ae4-9bd1-169cd26f4501",
+        "timestamp": 1785366132409
+      },
+      {
+        "executionId": "aabc4c81-c21f-4d45-8865-ecc3896abf43",
+        "chatSessionId": "sess_ef6bc3e9-4e87-4ae4-9bd1-169cd26f4501",
+        "timestamp": 1785366141311
+      },
+      {
+        "executionId": "aabc4c81-c21f-4d45-8865-ecc3896abf43",
+        "chatSessionId": "sess_ef6bc3e9-4e87-4ae4-9bd1-169cd26f4501",
+        "timestamp": 1785366331527
+      }
+    ],
+    "2.3 Write property test for FAQ content preservation in system prompt": [
+      {
+        "executionId": "aabc4c81-c21f-4d45-8865-ecc3896abf43",
+        "chatSessionId": "sess_ef6bc3e9-4e87-4ae4-9bd1-169cd26f4501",
+        "timestamp": 1785366132434
+      },
+      {
+        "executionId": "aabc4c81-c21f-4d45-8865-ecc3896abf43",
+        "chatSessionId": "sess_ef6bc3e9-4e87-4ae4-9bd1-169cd26f4501",
+        "timestamp": 1785444055419
+      },
+      {
+        "executionId": "aabc4c81-c21f-4d45-8865-ecc3896abf43",
+        "chatSessionId": "sess_ef6bc3e9-4e87-4ae4-9bd1-169cd26f4501",
+        "timestamp": 1785448444276
+      }
+    ],
+    "2.4 Write property test for exit command classification": [
+      {
+        "executionId": "aabc4c81-c21f-4d45-8865-ecc3896abf43",
+        "chatSessionId": "sess_ef6bc3e9-4e87-4ae4-9bd1-169cd26f4501",
+        "timestamp": 1785366132459
+      },
+      {
+        "executionId": "aabc4c81-c21f-4d45-8865-ecc3896abf43",
+        "chatSessionId": "sess_ef6bc3e9-4e87-4ae4-9bd1-169cd26f4501",
+        "timestamp": 1785444056171
+      },
+      {
+        "executionId": "aabc4c81-c21f-4d45-8865-ecc3896abf43",
+        "chatSessionId": "sess_ef6bc3e9-4e87-4ae4-9bd1-169cd26f4501",
+        "timestamp": 1785448445041
+      }
+    ],
+    "3.1 Define `ContextTooLongError` exception class": [
+      {
+        "executionId": "aabc4c81-c21f-4d45-8865-ecc3896abf43",
+        "chatSessionId": "sess_ef6bc3e9-4e87-4ae4-9bd1-169cd26f4501",
+        "timestamp": 1785366132485
+      },
+      {
+        "executionId": "aabc4c81-c21f-4d45-8865-ecc3896abf43",
+        "chatSessionId": "sess_ef6bc3e9-4e87-4ae4-9bd1-169cd26f4501",
+        "timestamp": 1785366142054
+      },
+      {
+        "executionId": "aabc4c81-c21f-4d45-8865-ecc3896abf43",
+        "chatSessionId": "sess_ef6bc3e9-4e87-4ae4-9bd1-169cd26f4501",
+        "timestamp": 1785366332396
+      }
+    ],
+    "3.2 Implement `send_message()` function": [
+      {
+        "executionId": "aabc4c81-c21f-4d45-8865-ecc3896abf43",
+        "chatSessionId": "sess_ef6bc3e9-4e87-4ae4-9bd1-169cd26f4501",
+        "timestamp": 1785366132509
+      },
+      {
+        "executionId": "aabc4c81-c21f-4d45-8865-ecc3896abf43",
+        "chatSessionId": "sess_ef6bc3e9-4e87-4ae4-9bd1-169cd26f4501",
+        "timestamp": 1785366341719
+      },
+      {
+        "executionId": "aabc4c81-c21f-4d45-8865-ecc3896abf43",
+        "chatSessionId": "sess_ef6bc3e9-4e87-4ae4-9bd1-169cd26f4501",
+        "timestamp": 1785444048040
+      }
+    ],
+    "3.3 Write property test for request assembly completeness": [
+      {
+        "executionId": "aabc4c81-c21f-4d45-8865-ecc3896abf43",
+        "chatSessionId": "sess_ef6bc3e9-4e87-4ae4-9bd1-169cd26f4501",
+        "timestamp": 1785366132532
+      },
+      {
+        "executionId": "aabc4c81-c21f-4d45-8865-ecc3896abf43",
+        "chatSessionId": "sess_ef6bc3e9-4e87-4ae4-9bd1-169cd26f4501",
+        "timestamp": 1785444056947
+      },
+      {
+        "executionId": "aabc4c81-c21f-4d45-8865-ecc3896abf43",
+        "chatSessionId": "sess_ef6bc3e9-4e87-4ae4-9bd1-169cd26f4501",
+        "timestamp": 1785448445884
+      }
+    ],
+    "4.1 Implement `trim_history(history, keep_latest)` function": [
+      {
+        "executionId": "aabc4c81-c21f-4d45-8865-ecc3896abf43",
+        "chatSessionId": "sess_ef6bc3e9-4e87-4ae4-9bd1-169cd26f4501",
+        "timestamp": 1785366132559
+      },
+      {
+        "executionId": "aabc4c81-c21f-4d45-8865-ecc3896abf43",
+        "chatSessionId": "sess_ef6bc3e9-4e87-4ae4-9bd1-169cd26f4501",
+        "timestamp": 1785366342636
+      },
+      {
+        "executionId": "aabc4c81-c21f-4d45-8865-ecc3896abf43",
+        "chatSessionId": "sess_ef6bc3e9-4e87-4ae4-9bd1-169cd26f4501",
+        "timestamp": 1785444046426
+      }
+    ],
+    "4.2 Write property test for conversation history alternation invariant": [
+      {
+        "executionId": "aabc4c81-c21f-4d45-8865-ecc3896abf43",
+        "chatSessionId": "sess_ef6bc3e9-4e87-4ae4-9bd1-169cd26f4501",
+        "timestamp": 1785366132583
+      },
+      {
+        "executionId": "aabc4c81-c21f-4d45-8865-ecc3896abf43",
+        "chatSessionId": "sess_ef6bc3e9-4e87-4ae4-9bd1-169cd26f4501",
+        "timestamp": 1785444057720
+      },
+      {
+        "executionId": "aabc4c81-c21f-4d45-8865-ecc3896abf43",
+        "chatSessionId": "sess_ef6bc3e9-4e87-4ae4-9bd1-169cd26f4501",
+        "timestamp": 1785448446695
+      }
+    ],
+    "4.3 Write property test for history trimming preserves recency": [
+      {
+        "executionId": "aabc4c81-c21f-4d45-8865-ecc3896abf43",
+        "chatSessionId": "sess_ef6bc3e9-4e87-4ae4-9bd1-169cd26f4501",
+        "timestamp": 1785366132608
+      },
+      {
+        "executionId": "aabc4c81-c21f-4d45-8865-ecc3896abf43",
+        "chatSessionId": "sess_ef6bc3e9-4e87-4ae4-9bd1-169cd26f4501",
+        "timestamp": 1785444058537
+      },
+      {
+        "executionId": "aabc4c81-c21f-4d45-8865-ecc3896abf43",
+        "chatSessionId": "sess_ef6bc3e9-4e87-4ae4-9bd1-169cd26f4501",
+        "timestamp": 1785448447476
+      }
+    ],
+    "5. Checkpoint - Ensure all tests pass": [
+      {
+        "executionId": "aabc4c81-c21f-4d45-8865-ecc3896abf43",
+        "chatSessionId": "sess_ef6bc3e9-4e87-4ae4-9bd1-169cd26f4501",
+        "timestamp": 1785366132633
+      },
+      {
+        "executionId": "aabc4c81-c21f-4d45-8865-ecc3896abf43",
+        "chatSessionId": "sess_ef6bc3e9-4e87-4ae4-9bd1-169cd26f4501",
+        "timestamp": 1785448460986
+      },
+      {
+        "executionId": "aabc4c81-c21f-4d45-8865-ecc3896abf43",
+        "chatSessionId": "sess_ef6bc3e9-4e87-4ae4-9bd1-169cd26f4501",
+        "timestamp": 1785448614505
+      }
+    ],
+    "6.1 Implement `main()` function with REPL loop": [
+      {
+        "executionId": "aabc4c81-c21f-4d45-8865-ecc3896abf43",
+        "chatSessionId": "sess_ef6bc3e9-4e87-4ae4-9bd1-169cd26f4501",
+        "timestamp": 1785366132659
+      },
+      {
+        "executionId": "aabc4c81-c21f-4d45-8865-ecc3896abf43",
+        "chatSessionId": "sess_ef6bc3e9-4e87-4ae4-9bd1-169cd26f4501",
+        "timestamp": 1785448461138
+      },
+      {
+        "executionId": "aabc4c81-c21f-4d45-8865-ecc3896abf43",
+        "chatSessionId": "sess_ef6bc3e9-4e87-4ae4-9bd1-169cd26f4501",
+        "timestamp": 1785448615470
+      }
+    ],
+    "6.2 Write property test for empty input not triggering API call": [
+      {
+        "executionId": "aabc4c81-c21f-4d45-8865-ecc3896abf43",
+        "chatSessionId": "sess_ef6bc3e9-4e87-4ae4-9bd1-169cd26f4501",
+        "timestamp": 1785366132684
+      },
+      {
+        "executionId": "aabc4c81-c21f-4d45-8865-ecc3896abf43",
+        "chatSessionId": "sess_ef6bc3e9-4e87-4ae4-9bd1-169cd26f4501",
+        "timestamp": 1785448624439
+      },
+      {
+        "executionId": "aabc4c81-c21f-4d45-8865-ecc3896abf43",
+        "chatSessionId": "sess_ef6bc3e9-4e87-4ae4-9bd1-169cd26f4501",
+        "timestamp": 1785449732523
+      }
+    ],
+    "6.3 Write property test for system prompt immutability across turns": [
+      {
+        "executionId": "aabc4c81-c21f-4d45-8865-ecc3896abf43",
+        "chatSessionId": "sess_ef6bc3e9-4e87-4ae4-9bd1-169cd26f4501",
+        "timestamp": 1785366132717
+      },
+      {
+        "executionId": "aabc4c81-c21f-4d45-8865-ecc3896abf43",
+        "chatSessionId": "sess_ef6bc3e9-4e87-4ae4-9bd1-169cd26f4501",
+        "timestamp": 1785448625395
+      },
+      {
+        "executionId": "aabc4c81-c21f-4d45-8865-ecc3896abf43",
+        "chatSessionId": "sess_ef6bc3e9-4e87-4ae4-9bd1-169cd26f4501",
+        "timestamp": 1785449733241
+      }
+    ],
+    "7.1 Register chatbot entry point in `pyproject.toml`": [
+      {
+        "executionId": "aabc4c81-c21f-4d45-8865-ecc3896abf43",
+        "chatSessionId": "sess_ef6bc3e9-4e87-4ae4-9bd1-169cd26f4501",
+        "timestamp": 1785366132765
+      },
+      {
+        "executionId": "aabc4c81-c21f-4d45-8865-ecc3896abf43",
+        "chatSessionId": "sess_ef6bc3e9-4e87-4ae4-9bd1-169cd26f4501",
+        "timestamp": 1785448626437
+      },
+      {
+        "executionId": "aabc4c81-c21f-4d45-8865-ecc3896abf43",
+        "chatSessionId": "sess_ef6bc3e9-4e87-4ae4-9bd1-169cd26f4501",
+        "timestamp": 1785449734111
+      }
+    ],
+    "7.2 Write unit tests for end-to-end startup and interaction flows": [
+      {
+        "executionId": "aabc4c81-c21f-4d45-8865-ecc3896abf43",
+        "chatSessionId": "sess_ef6bc3e9-4e87-4ae4-9bd1-169cd26f4501",
+        "timestamp": 1785366132792
+      },
+      {
+        "executionId": "aabc4c81-c21f-4d45-8865-ecc3896abf43",
+        "chatSessionId": "sess_ef6bc3e9-4e87-4ae4-9bd1-169cd26f4501",
+        "timestamp": 1785449741690
+      },
+      {
+        "executionId": "aabc4c81-c21f-4d45-8865-ecc3896abf43",
+        "chatSessionId": "sess_ef6bc3e9-4e87-4ae4-9bd1-169cd26f4501",
+        "timestamp": 1785450554656
+      }
+    ],
+    "8. Final checkpoint - Ensure all tests pass": [
+      {
+        "executionId": "aabc4c81-c21f-4d45-8865-ecc3896abf43",
+        "chatSessionId": "sess_ef6bc3e9-4e87-4ae4-9bd1-169cd26f4501",
+        "timestamp": 1785366132819
+      },
+      {
+        "executionId": "aabc4c81-c21f-4d45-8865-ecc3896abf43",
+        "chatSessionId": "sess_ef6bc3e9-4e87-4ae4-9bd1-169cd26f4501",
+        "timestamp": 1785450559597
+      },
+      {
+        "executionId": "aabc4c81-c21f-4d45-8865-ecc3896abf43",
+        "chatSessionId": "sess_ef6bc3e9-4e87-4ae4-9bd1-169cd26f4501",
+        "timestamp": 1785450603880
+      }
+    ],
+    "1. Create the chatbot module with startup validation": [
+      {
+        "executionId": "aabc4c81-c21f-4d45-8865-ecc3896abf43",
+        "chatSessionId": "sess_ef6bc3e9-4e87-4ae4-9bd1-169cd26f4501",
+        "timestamp": 1785444047293
+      }
+    ],
+    "2. Implement system prompt construction and exit command logic": [
+      {
+        "executionId": "aabc4c81-c21f-4d45-8865-ecc3896abf43",
+        "chatSessionId": "sess_ef6bc3e9-4e87-4ae4-9bd1-169cd26f4501",
+        "timestamp": 1785448445101
+      }
+    ],
+    "3. Implement Claude API integration": [
+      {
+        "executionId": "aabc4c81-c21f-4d45-8865-ecc3896abf43",
+        "chatSessionId": "sess_ef6bc3e9-4e87-4ae4-9bd1-169cd26f4501",
+        "timestamp": 1785448445930
+      }
+    ],
+    "4. Implement conversation history management": [
+      {
+        "executionId": "aabc4c81-c21f-4d45-8865-ecc3896abf43",
+        "chatSessionId": "sess_ef6bc3e9-4e87-4ae4-9bd1-169cd26f4501",
+        "timestamp": 1785448447515
+      }
+    ],
+    "6. Implement the REPL loop and main entry point": [
+      {
+        "executionId": "aabc4c81-c21f-4d45-8865-ecc3896abf43",
+        "chatSessionId": "sess_ef6bc3e9-4e87-4ae4-9bd1-169cd26f4501",
+        "timestamp": 1785449733301
+      }
+    ],
+    "7. Add entry point to pyproject.toml and wire up": [
+      {
+        "executionId": "aabc4c81-c21f-4d45-8865-ecc3896abf43",
+        "chatSessionId": "sess_ef6bc3e9-4e87-4ae4-9bd1-169cd26f4501",
+        "timestamp": 1785450554795
+      }
+    ]
+  }
+}
